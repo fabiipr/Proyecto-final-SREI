@@ -27,3 +27,9 @@ usaremos centro.intranet.conf para entrar en la configuración
 
 ![image](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/b05cfcc9-4e7c-416e-ac73-411db2eecb88)
 
+![image](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/16b01c59-17f1-435e-8bfc-cb7f093bebb3)
+
+entramos en el archivo host y lo modificamos 
+![image](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/180cd7e6-1d9c-491f-8e52-325f92d3693b)
+
+![image](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/dbe67488-00f0-4851-bec7-711833986d15)
