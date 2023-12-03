@@ -109,3 +109,52 @@ y modificamos el wp-config.php
 
 ![dashboard wprdpress](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/5ec75726-790a-4e23-a2d5-24e27586ed98)
 
+Activamos el módulo'wsdgi' para permitir ejecutar Python 
+
+![image](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/d0b5ffa1-f686-4ea7-92a4-ed10f1bb2ac4)
+
+Creamos las carpetas curso-python/trunk/python-web 
+
+![image](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/c9f4ba71-9810-4e1c-96a2-f04215d0302f)
+
+creamos los mismo y public.html  dentro de departamentos.centro.intranet
+
+![image](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/931d9e5f-f9cb-4164-bb32-4da9e194bf48)
+
+![image](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/cf65b36d-7a0f-4692-b640-d3cdad2cc09c)
+
+![controller py](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/38ea2db1-fbd7-4c71-9e19-f7fcb67787f0)
+
+codigo de pythpn 
+
+![codigo del controller py](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/d7008651-86ad-42fc-8ee9-576ab9b3c7f8)
+
+nos meteremos en la configuración de departamentos.centro.intranet 
+
+![image](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/9a56d136-1e21-4ae8-b9a2-b58a60a35a9f)
+
+![image](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/75c89d69-57c7-447e-bed2-6dee87cb8c79)
+
+![image](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/fbd32770-dc18-4f2a-ac4d-9cb237a08e14)
+
+![image](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/07811ed3-5da8-4e78-9eee-63ad29ba6af4)
+
+![image](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/5c5b91a5-7b0f-4b4e-8f31-4a4c0d6df50b)
+
+![image](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/aed5c5ac-5ebf-4a82-890f-e7d516246c4b)
+
+/etc/hosts 
+
+![image](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/1a5940de-5a9d-4e99-91f4-70b97e90558f)
+
+vemos la pagina de Python 
+
+![vista depagina python](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/a2c75221-d209-43e6-a924-e89dc6338945)
+
+Ahora protegeremos el acceso a la aplicación de Python 
+
+![image](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/1ad43445-d9e2-46ce-8234-bdc54fcf3287)
+
+![image](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/d203bf71-e5cd-4d65-b95f-b009166f2764)
+
+![image](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/b625adc8-ccda-48ec-97a5-4f5112fcca9e)
