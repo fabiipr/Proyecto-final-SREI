@@ -202,31 +202,45 @@ Hacemos un reload del apache service
 
 ![image](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/134e80ce-8c16-42fc-bb11-cc26703567dd)
 
-
-
 ![image](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/2fca0725-2db1-42a1-933b-d581554865ef)
 
 ahora instalaremos el awstat
 
 ![image](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/c1059db6-65f2-4717-94ff-bc0e1431948e)
 
+Usamos el comando nano /etc/apache2/conf-available/awstat.conf
+
 ![image](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/08fb25f7-19f4-437d-9a6e-2b2a0ead1404)
 
+Modificamos este archivo 
+
 ![image](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/5d485467-9e6c-4000-bb71-bfac4077f794)
+
+ Habilita el módulo cgi 
 
 ![image](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/a4199463-2dd7-4008-85f1-ffa71182a4e9)
 
 ![image](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/969b3b8c-e408-4fc1-b9b9-5de96af1e25a)
 
+De nuevo hacemos un reload al servidor de apache 
+
 ![image](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/aad09431-5ebf-4a99-ad01-8c9a05e22106)
+
+Copiamos la carpeta de awstat.conf en departamentos.centro.intranet.conf
 
 ![image](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/52183b04-c39e-4e11-8172-6645db2c9085)
 
+Editamos el  LogFile
+
 ![logfile](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/1aa0f78f-44ad-4d31-9e85-65d3ac5b37c8)
+
+Editamos el SiteDomain
 
 ![sitedomain](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/ece551aa-8eee-48dd-b170-f16446f458b3)
 
 ![image](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/44bf011a-328c-4c52-b59e-2204046273b3)
+
+Desde el navegador accedemos al URL que vemos y nos saldrá lo mismo 
 
 ![image](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/09a9eaae-bdfa-4b06-a078-3ce071018987)
 
@@ -234,15 +248,27 @@ Ahora comenzaremos con la instalación del segundo servidor bajo el dominio de s
 
 ![image](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/f18d7ce2-1429-429d-bf47-fddb8b1449d6)
 
+Hacemos un apt upgrade
+
 ![image](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/65a85e9c-1795-402d-bd67-274b0740e3de)
+
+Installamos el nginx
 
 ![image](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/0ade7783-ca73-47d0-ae4d-8f52544a6229)
 
+Hacemos el mkdir servidorcentro 
+
 ![image](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/f2aabcec-beec-4fc6-9659-3f2779a50a53)
+
+Y lo editamos como queramos 
 
 ![image](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/50fb9f81-2205-4a0f-b634-1db35f806aa5)
 
+Accedemos el documento hosts y lo modificamos  
+
 ![image](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/17c56431-174d-4b04-82a2-4c663159b7fb)
+
+Accedemos al documento defauult y lo editamos 
 
 ![image](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/d160fee2-5b4e-412d-a8bb-4f0918ba9fec)
 
@@ -250,14 +276,23 @@ Ahora comenzaremos con la instalación del segundo servidor bajo el dominio de s
 
 ![image](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/7f2bf609-a777-4c0c-9aa5-f9665f857a42)
 
+Aqui veremos la página que habiamos creado 
+
 ![image](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/0db3ebbe-673e-4cac-94ed-7725b2b54478)
+
+Installamos el mysql-server
 
 ![image](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/b297790c-4e23-4791-b04f-2d951d4c1076)
 
+Instalamos el php-fpm php-mysql
+
 ![image](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/d276680c-6e62-402c-b4ca-138521f875bb)
+
 
 ![image](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/a62dc504-9c89-46c3-b1bf-b4e8ad5215e5)
 
 ![image](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/98748a4b-91bc-4dae-9403-f97757c8648c)
+
+Aqui veremos la configuración del servidor2.conf
 
 ![image](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/a6c4151a-f143-4020-bb24-3dac4313335b)
