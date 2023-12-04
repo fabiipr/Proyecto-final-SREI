@@ -15,7 +15,7 @@ nos movemos dentro de centro.intranet y creamos el archivo index.html
 
 ![creamos la pagina index html](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/70911d66-927c-4231-a0eb-4f693f42b704)
 
-y luego editaremos el archivo que hemos creado, tanto centro.intranet como de departamentos.centro.intra
+y luego editaremos el archivo que hemos creado, tanto centro.intranet como de departamentos.centro.intranet
 
 ![image](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/2b878223-ee7c-48c6-b88b-b74778a26e00)
 
@@ -27,44 +27,52 @@ usaremos centro.intranet.conf para entrar en la configuración
 
 ![image](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/b05cfcc9-4e7c-416e-ac73-411db2eecb88)
 
+Ahora con el comando a2ensite habilitaremos el centro.intranet 
+
 ![image](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/16b01c59-17f1-435e-8bfc-cb7f093bebb3)
 
-entramos en el archivo host y lo modificamos 
+entramos en el archivo host y lo modificaremos
 ![image](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/180cd7e6-1d9c-491f-8e52-325f92d3693b)
+
+Accedemos desde el navegador y vemos la página creada de centro.intranet y de departamentos.centro.intranet 
 
 ![image](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/dbe67488-00f0-4851-bec7-711833986d15)
 
 ![image](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/df2ca30e-909d-475d-aae2-637bf021e36f)
 
-activamos los nodulos necearios para ejecutar el rograma de php y acceder a mysql 
+Activamos los nodulos necearios para ejecutar el rograma de php y acceder a mysql 
 
 ![image](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/64323203-1469-4475-9cc9-0651f3985a0e)
 
-con el comando mysql entraríamos en él 
+Con el comando mysql entraríamos en él 
 
 ![image](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/98df4859-0ab1-4fe9-9bc4-5efa2e752c62)
 
-ponemos el comando php libapache2-mod -php php-mysql para descargarlo 
+Ponemos el comando php libapache2-mod -php php-mysql para descargarlo 
 
 ![image](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/6a723ffc-9e95-449b-8f37-e8e60fd4175a)
 
-php -v y vemos la versión instalada 
+Php -v y vemos la versión instalada 
 
 ![image](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/ace3f6c3-c8a4-49db-8b67-6151c6ea8f29)
 
-a continuación instalamos y configuraremos WordPress
+A continuación instalamos y configuraremos WordPress
 
 ![image](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/4dad06ad-83f0-4c62-aae9-15adc5e361ad)
 
+Con el comando tar descomprimimos la carpeta 
+
 ![image](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/1f001d3c-b426-4033-9f47-736f01a718da)
+
+Creamos las carpetas wordpress/wp-config/uploads
 
 ![image](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/fc63748f-c4a3-42a5-aec8-c4aa972f2ef2)
 
-le damos permisos a la carpeta de wordpress con wl comando chmod -R 
+Le damos permisos a la carpeta de wordpress con el comando chmod -R 
 
 ![image](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/813d0b95-5a8b-4497-98b9-829f0ec78125)
 
-y ahora crearemos la base de datos 
+Y ahora crearemos la base de datos 
 
 ![image](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/4f82a9d1-1657-42a0-9d18-2487c2a4aa20)
 
@@ -88,26 +96,40 @@ y modificamos el wp-config.php
 
 ![image](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/83efea63-7ac4-43c0-9ae9-e4ad6fa40e64)
 
+Y modificamos los paárametros que vemos en amarillo por nuestra información
+
 ![edicion database](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/3368532a-9646-425a-be33-387936a34fdc)
+
+Usaremos el comando curl para que nos transfiera esta información de la URL que vemos en la captura 
 
 ![image](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/1c62e2bc-c037-4128-9fc5-439be83868c3)
 
+Y lo copiaremos en el archivo wp-config.php
+
 ![image](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/39663fb1-f750-4895-bcb6-81192b5262d2)
+
+Nos metemos en el archivo wordpress.conf para modificarlo
 
 ![image](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/303e511c-2500-46e1-a5ba-ef584c790fc4)
 
 ![image](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/e5af1ae7-d41b-463f-b669-52ee48805a29)
 
+Hacemos una prueba para ver si todo está escrito correctamente apachectl configtest
+
 ![image](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/b3719eb5-a2ee-4b21-861a-a02ee484e93d)
+
+Completamos el registro para poder instalarlo
 
 ![install wordpress](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/333f3ee9-ae59-4a87-94c5-2f50cad90132)
 
+Hacemos el login para entrar en wordpress
+
 ![login wordpress](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/e0dc2745-477c-4e97-83a6-444ab927267a)
+
+Y aquí vemos que ya estamos dentro de nuestro wordpress
 
 ![dashboard wprdpress](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/f87fd476-13cf-4a25-8f26-3b1ca1ce17c2)
 
-
-![dashboard wprdpress](https://github.com/fabiipr/Proyecto-final-SREI/assets/91718499/5ec75726-790a-4e23-a2d5-24e27586ed98)
 
 Activamos el módulo'wsdgi' para permitir ejecutar Python 
 
